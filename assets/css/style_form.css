@@ -1,0 +1,12 @@
+input[type="text"],
+input[type="email"] {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+/* body {  
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+} */
