@@ -6,21 +6,6 @@ body {
     text-align: center;
 }
 
-h2 {
-    color: rgb(66, 66, 66);
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#prg1 {
-    text-align: center;
-}
-
-#prg2 {
-    text-align: center;
-}
-
 #dci_link {
     color: rgb(100, 100, 100);
     text-decoration: none;
@@ -33,9 +18,28 @@ h2 {
     margin-right: 100%;
 }
 
+h2 {
+    color: rgb(66, 66, 66);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 #pro_pic {
     width: 150px;
+}
+
+#prg1 {
+    text-align: center;
+}
+
+#prg2 {
+    text-align: center;
+}
+
+#skill_list {
+    list-style: none;
+    text-align
 }
 
 #scl_link {
