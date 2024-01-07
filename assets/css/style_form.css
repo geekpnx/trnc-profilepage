@@ -2,11 +2,25 @@ input[type="text"],
 input[type="email"] {
     display: block;
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
-/* body {  
-    width: 25%;
+body {  
+    background-color: rgb(204, 204, 204);
+    color: rgb(79, 79, 80);
+    width: 70%;
     margin: 0 auto;
     text-align: center;
-} */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#input_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#space {
+    padding: 5px;
+}

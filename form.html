@@ -12,44 +12,52 @@
 
     <form>
         <label for="first_name">First Name</label>
-        <input 
-        type="text" 
-        name="first_name" 
-        placeholder=" First name"
-        id="first_name" />
+        <div id="space">
+        <div id="input_box">
+        <input
+            type="text" 
+            name="first_name" 
+            placeholder=" First name"
+            id="first_name" />
+        </div>
         
         <label for="last_name">Last Name</label>
+        <div id="space">
+        <div id="input_box">
         <input 
             type="text"
             name="last_name"
             placeholder="Last Name"
             id="last_name" />
-
+        </div>
+        
         <label for="email">Email</label>
+        <div id="space">
+        <div id="input_box">
         <input 
             type="email"
             name="email"
             id="email"
             placeholder="Email" />
-
+        </div>
 
         <label for="gender">Gender</label><br />
-        
+        <div id="space">
         <input 
             type="radio"
             name="gender"
             id="male" 
             value="male"/>
         <label for="male">Male</label>
-        
         <input 
             type="radio"
             name="gender"
             id="female"
-            value="female" />
-        <label for="female">Female</label><br />
-        
+            value="female" />        
+        <label for="female">Female</label>
+        <div id="space">
         <label for="country">Country</label>
+        <div id="space">
         <select name="country" id="country">
             <option>Select an option</option>
             <option value="fr">France</option>
