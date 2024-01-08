@@ -1,11 +1,9 @@
 input[type="text"],
 input[type="email"] {
-    /* display: block; */
     margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
 
 }
-
 
 
 body {  
@@ -33,9 +31,4 @@ form {
     border-width: 2px;
     box-sizing: border-box;
     border-radius: 5%;
-}
-
-
-br {
-    margin-top: 10px;
 }
