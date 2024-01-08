@@ -11,6 +11,8 @@
     <h1>Registration Form</h1>
 
     <form>
+        <!--- First name --->  
+        <br>
         <label for="first_name">First Name</label>
         <div id="space">
         <div id="input_box">
@@ -21,6 +23,7 @@
             id="first_name" />
         </div>
         
+        <!--- Last name--->
         <label for="last_name">Last Name</label>
         <div id="space">
         <div id="input_box">
@@ -31,6 +34,7 @@
             id="last_name" />
         </div>
         
+         <!---Email--->
         <label for="email">Email</label>
         <div id="space">
         <div id="input_box">
@@ -40,36 +44,45 @@
             id="email"
             placeholder="Email" />
         </div>
-
-        <label for="gender">Gender</label><br />
+        
+        <!---Gender--->
+        <label for="gender"> Gender</label>
         <div id="space">
+    
+        <!---Male--->
+        <label for="male">Male</label>
         <input 
             type="radio"
             name="gender"
             id="male" 
             value="male"/>
-        <label for="male">Male</label>
+
+         <!---Female--->
+        <label for="female">Female</label>
         <input 
             type="radio"
             name="gender"
             id="female"
-            value="female" />        
-        <label for="female">Female</label>
-        <div id="space">
-        <label for="country">Country</label>
-        <div id="space">
+            value="female" /> 
+        <br>
+        <div id="space"></div>
+
+        <!---Country--->
+        <label for="country">Country</label>        
+        <div id="space">        
         <select name="country" id="country">
             <option>Select an option</option>
             <option value="fr">France</option>
             <option value="gr">Germany</option>
             <option value="id">Indonesia</option>
             <option value="us">USA</option>
-        
-        </select><br />
-        <input
+        </select>
+        <div id="space">
+ 
+        <!---Submit button--->
+            <input
             type="submit"
             value="Submit" />
-
     </form>
     
 </body>

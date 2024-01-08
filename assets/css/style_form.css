@@ -1,15 +1,17 @@
 input[type="text"],
 input[type="email"] {
-    display: block;
+    /* display: block; */
     margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
 
 }
 
+
+
 body {  
     background-color: rgb(204, 204, 204);
     color: rgb(79, 79, 80);
-    width: 70%;
+    width: 20%;
     margin: 0 auto;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -23,4 +25,17 @@ body {
 
 #space {
     padding: 5px;
+}
+
+
+form {
+    border-style: dashed;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+
+br {
+    margin-top: 10px;
 }
