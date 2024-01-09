@@ -33,3 +33,12 @@ form {
     border-radius: 5%;
     background-color: rgb(177, 177, 177) ;
 }
+
+#submit_button {
+    background-color: #4f4f50;
+    color: white;
+    font-size: 12px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: #4f4f50;
+}

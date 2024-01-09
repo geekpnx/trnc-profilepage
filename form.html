@@ -10,7 +10,7 @@
 
     <h1>Registration Form</h1>
 
-    <form>
+    <form name="registration" onsubmit="return validation()" >
         <!--- First name --->  
         <br>
         <br>
@@ -103,12 +103,13 @@
 
         <!---Submit button--->
         <br>
-            <input
+            <input id="submit_button"
                 type="submit"
-                value="Submit" />
+                value="SUBMIT" />
         <div id="space">
         <br>
     </form>
-    
+
+    <script type="text/javascript" src="assets/js/form.js"></script>
 </body>
 </html>
