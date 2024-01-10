@@ -86,6 +86,7 @@ form {
     
 }
 
+/* ACTIVE effect on text boxes */
 input[type='submit']:active {
     font-size: x-small;
 }
