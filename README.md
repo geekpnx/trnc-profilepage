@@ -1,6 +1,6 @@
 # Advanced CSS
 - `:hover`
-- `:active``
+- `:active`
 - `:focus`
 - `transition`
 - `animation`
