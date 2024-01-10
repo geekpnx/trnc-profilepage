@@ -54,6 +54,11 @@ h2 {
     margin-right: 0.2%;
 }
 
+#email_logo {
+    width: 30px;
+    margin-right: 0.2%;
+}
+
 #scl_link {
     color: black;
     text-decoration: none;
