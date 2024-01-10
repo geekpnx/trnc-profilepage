@@ -2,14 +2,54 @@ input[type="text"],
 input[type="email"] {
     margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
+    /* TRANSITION Effect */
+    transition: background-color 2s;
+}
 
+
+textarea {
+    width: 30%;
+    animation-name: text-area;
+    animation-duration: 10s;
+    transition: background-color 2s;
+
+}
+
+@keyframes text-area {
+    from  {
+        width: 5%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+/* HOVER on text boxes */
+input[type='text']:hover,
+input[type='email']:hover,
+textarea:hover {
+    background-color: rgb(228, 224, 30);
+}
+
+/* Hover SUBMIT button to big */
+input[type='submit']:hover {
+    font-size: large;
+    transition: font-size 3s;
+}
+
+/* FOCUS on text boxes */
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
+    background-color: rgb(206, 206, 206);
+    transition: background-color 2s;
 }
 
 
 body {  
     background-color: rgb(204, 204, 204);
     color: #4f4f50;
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -34,11 +74,18 @@ form {
     background-color: rgb(177, 177, 177) ;
 }
 
-#submit_button {
+ input[type='submit'] {
     background-color: #4f4f50;
-    color: white;
+    /* background-image: linear-gradient(to right, red, grey); */
+    color: rgb(255, 255, 255);
     font-size: 12px;
     padding: 10px 24px;
     border-radius: 8px;
-    border: #4f4f50;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input[type='submit']:active {
+    font-size: x-small;
 }
