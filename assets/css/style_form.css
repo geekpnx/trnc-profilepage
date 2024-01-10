@@ -74,8 +74,16 @@ form {
     background-color: rgb(177, 177, 177) ;
 }
 
+
+.submit-disabled {
+    background-color: rgb(153, 128, 151);
+    cursor: not-allowed;
+    pointer-events: none;
+   
+}
+
  input[type='submit'] {
-    background-color: #4f4f50;
+    /* background-color: #4f4f50; */
     /* background-image: linear-gradient(to right, red, grey); */
     color: rgb(255, 255, 255);
     font-size: 12px;
@@ -89,4 +97,9 @@ form {
 /* ACTIVE effect on text boxes */
 input[type='submit']:active {
     font-size: x-small;
+}
+
+#text-count {
+    color: rgb(87, 87, 87);
+    margin-left: 20%;
 }

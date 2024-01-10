@@ -10,3 +10,10 @@
 ## active
 ## transition
 ## animation
+
+
+# Advanced JavaScript
+
+Activate submit button only when required fields are filled 
+
+

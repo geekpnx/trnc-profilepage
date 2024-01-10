@@ -21,6 +21,7 @@
             type="text" 
             name="first_name" 
             placeholder=" First name"
+            onkeyup="activateSubmit()"
             id="first_name" />
         </div>
         
@@ -32,6 +33,7 @@
             type="text"
             name="last_name"
             placeholder="Last Name"
+            onkeyup="activateSubmit()"
             id="last_name" />
         </div>
         
@@ -43,6 +45,7 @@
             type="email"
             name="email"
             id="email"
+            onkeyup="activateSubmit()"
             placeholder="Email" />
         </div>
         
@@ -91,10 +94,12 @@
         <!-- Text box area -->
             <textarea 
             name="message" 
-            id="message" cols="30">
+            id="message" 
+            cols="30"
+            onkeyup="countText()" >
             </textarea>
         <br>
-        
+        <p id="text-count">0/100</p>
 
         <!-- Check box -->
             <input type="checkbox" name="news letter" id="news letter">
@@ -103,7 +108,7 @@
 
         <!---Submit button--->
         <br>
-            <input id="submit_button"
+            <input class="submit-disabled" id="submit"
                 type="submit"
                 value="SUBMIT" />
         <div id="space">
