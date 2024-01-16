@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(207, 206, 206);
+}
+
+.logo img {
+    width: 50px;
+    margin: 10px 0;
+    margin-right: 700px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.propic img {
+    width: 200px;
+    margin: 20px 0;
+    border-radius: 200px;
+
+}
+
+.aboutme {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.descrip {
+    margin: 20px 0;
+}
+
+.descrip p {
+    color:dimgray;
+}
+.descrip a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.softskills {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.descrip-ss {
+    margin: 20px 0;
+
+}
+
+.descrip-ss ul {
+    list-style: none;
+}
+
+.descrip-ss li {
+    color:dimgray;
+
+}
+
+.hardskills {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.descrip-hs {
+    margin: 20px 0;
+
+}
+
+.descrip-hs ul {
+    list-style: none;
+}
+
+.descrip-hs li {
+    color:dimgray;
+
+}
+
+.social img {
+    /* display: flex; */
+    align-items: center; 
+    margin: 10px 0;
+    width: 30px;
+}
+
+
